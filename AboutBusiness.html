@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<script src="js/flexible.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<title></title>
+	</head>
+	<body>
+		
+		<!--头部-->
+		<div class="nav_web">
+			<div class="content_gy">
+				<div class="left">
+					<img src="img/more.png" id="left_img"/>
+				</div>
+				<div class="right">
+					<img src="img/logo.png"/>
+				</div>
+				
+			</div>
+		</div>
+		<div class="left_nav">
+			<ul>
+				<li>
+					<a href="index.html">首页</a>
+				</li>
+				<li>
+					<a href="AboutCompany.html">关于我们</a>
+					<ul>
+						<li><a href="AboutCompany.html">公司概述</a></li>
+						<li><a href="AboutBusiness.html">平台业务</a></li>
+						<li><a href="AboutValue.html">企业价值观</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="LIfe.html">业务分类</a>
+					<ul>
+						<li><a href="LIfe.html">寿险</a></li>
+						<li><a href="Serious.html">重疾险</a></li>
+						<li><a href="Topcure.html">高端医疗</a></li>
+						<li><a href="chuxu.html">储蓄分红险</a></li>
+						<li><a href="haiwai.html">海外资产配置</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="Advantage.html">港险咨询</a>
+					<ul>
+						<li><a href="Advantage.html">港险优势</a></li>
+						<li><a href="Tow.html">两地差异</a></li>
+						<li><a href="Usually.html">常见问题</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="Case.html">投保案例</a>
+				</li>
+				<li>
+					<a href="Content.html">联系我们</a>
+				</li>
+			</ul>
+		</div>
+		<!--轮播-->
+		<div class="banner">
+			<img src="img/companybanner.png"/>
+		</div>
+		<!--为什么选择香港保险-->
+		<div class="tit">
+			<h2>平台业务</h2>
+		</div>
+		<div class="banner_company">
+			<img src="img/companybuiness.png"/>
+		</div>
+		<div class="tit_company">
+			<div class="tit_companys">
+				<h2>平台业务/Platform busine</h2>
+			</div>
+		</div>
+		
+		<div class="company">
+			<div class="company_p">
+				<p>大熊猫财务顾问有限公司是一家专注于国内外保险咨询的公司，我们并非产品制造商，但是却会为客户在市面上搜罗合适的保险产品，以满足客户的自身需求。我们必定以客户的利益为上，对市面上的各种保险产品进行深度剖析。中立客观的角色是我们的独特优势，我们坚守不偏不倚的原则，为客户提供咨询和服务。 全面实践【全方位 】多元化专业的咨询服务，我们以独立保险顾问角色与全球众多国际知名的保险公司保持良好资讯联系，提供客观公正之咨询服务及资讯，运用不同的财务工具量身定做理财目标，建立资产管理流程，配合税务规划，以实现客户财富创造的理想为目标。</p>
+			</div>
+			
+		</div>
+		<!--底部-->
+		<div class="footer">
+			<div class="weixin">
+				<img src="img/gzh.jpg"/>
+			</div>
+			<div class="weixin_p">
+				<p>关注微信公众号</p>	
+			</div>
+			<div class="phone">
+				咨询电话：021-60597630
+			</div>
+			<div class="email">
+				E-mail：carolyn@pandachfc.com
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#left_img").click(function(){
+			    $(".left_nav").slideToggle("slow");
+			  });
+			});
+		var mySwiper = new Swiper('.swiper-container', {
+				autoplay: true,//可选选项，自动滑动
+				pagination: {
+				    el: '.swiper-pagination',
+				    clickable :true,
+				 },
+				 navigation: {
+			      nextEl: '.btn',
+			     
+			    },
+			})	
+	</script>
+</html>

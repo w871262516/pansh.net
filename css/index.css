@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Microsoft Yahei, "", "Times New Roman";
+    line-height: 25px;
+    box-sizing: border-box;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+.nav_web{
+	width: 100%;
+	height: .88rem;
+	z-index: 10;
+	position: absolute;
+	line-height: .88rem;
+}
+.content_gy{
+	padding: 0 0.5rem;
+	
+	height: 100%;
+	display: flex;
+}
+.left{
+	width: 2.56rem;
+	display: flex;
+	align-items: center;
+}
+.left img{
+	height: 100%;
+	width: .44rem;
+	height: .42rem;
+}
+.right{
+	width: 1.5rem;
+	height: .63rem;
+	display: flex;
+	align-items: center;
+	margin-top: .13rem;
+}
+.right img{
+	width: 100%;
+	height: 100%;
+}
+.left_nav{
+	width: 100%;
+	background: #666666;
+	position: absolute;
+	top: .88rem;
+	z-index: 10;
+}
+.left_nav a{
+	color: #FFFFFF;
+	
+}
+.left_nav >ul{
+	padding: 0.5rem;
+}
+.left_nav ul li{
+	margin-left: 0.3rem;
+}
+.left_nav ul{
+	padding-bottom: 0.3rem;
+}
+.left_nav{
+	display: none;
+}
+.banner{
+	width: 100%;
+	height:4.9rem;
+	background: #FFE4C4;
+	position: relative;
+	top: 0;
+}
+.banner .swiper-container{
+	width: 100%;
+	height: 4.9rem;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+}
+.tit{
+	text-align: center;
+	margin-top: .64rem;
+	margin-bottom: .44rem;
+}
+.chose_nav{
+	width: 1.04rem;
+}
+.chose_img img{
+	width: 100%;
+	height: 100%;
+}
+.why_chose{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: .36rem;
+}
+.why_chose1{
+	display: flex;
+	justify-content: space-around;
+}
+.tit{
+	color: #0084FF;
+}
+.process{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.process img{
+	width: 100%;
+	height: 2.26rem;
+}
+.hot{
+	width: 100%;
+	height: 3.85rem;
+}
+.hot img{
+	width: 100%;
+	height: 100%;
+}
+.hot .swiper-container{
+	height: 3.85rem;
+}
+.hot .btn{
+	position: relative;
+	top: -.5rem;
+	left: 5rem;
+	z-index: 1;
+	width: .94rem;
+	height: .5rem;
+	background: #0084FF;
+	text-align: center;
+	color: #FFFFFF;
+}
+.youshi_list{
+	width: 6.86rem;
+	height: .7rem;
+	background: #F3F3F3;
+	margin-top: .2rem;
+	text-align: center;
+}
+.youshi_list p{
+	line-height: .7rem;
+}
+.youshi_list a{
+	color: #000000;
+}
+.hk{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.footer{
+	width: 100%;
+	height: 6.65rem;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: .5rem;
+}
+.weixin{
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.weixin img{
+	width: 100%;
+	height: 100%;
+}
+.banner_company{
+	width: 100%;
+	height: 4.84rem;
+}
+.banner_company img{
+	width: 100%;
+	height: 100%;
+}
+.company{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.company_p{
+	width: 6.82rem;
+}
+.tit_company{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: .44rem;
+	margin-bottom: .2rem;
+}
+.tit_companys{
+	width: 6.82rem;
+}
+.list{
+	width: 100%;
+	height: 3.46rem;
+	margin-bottom: .3rem;
+	display: flex;
+	justify-content: space-around;
+}
+.list_img {
+	width: 3.82rem;
+	height: 100%;
+}
+.list_img img{
+	width: 100%;
+	height: 100%;
+}
+.list_p{
+	width: 3rem;
+	height: 100%;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+.list_p p{
+	line-height: .4rem;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+}
+.list_p h4{
+	line-height: .34rem;
+	margin-bottom: .27rem;
+}
+.list a{
+	color: #000000;
+}
+.product{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.product_img{
+	width: 6.82rem;
+	height: 100%;
+}
+.product_img img{
+	width: 100%;
+	height: 100%;
+}
+.list1 a{
+	color: #000000;
+}
+.lists{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: .4rem;
+}
+.list1{
+	width: 3.6rem;
+}
+.list1 .list_img{
+	width: 3.6rem;
+	height: 3.6rem;
+}
+.list1 .list_img img{
+	width: 100%;
+	height: 100%;
+}
+.list1_p{
+	margin-top: .09rem;
+}
+.content h3{
+	margin: .2rem 0.2rem;
+}
+.content{
+	width: 100%;
+	height: 100%;
+}
+.content p{
+	margin: .2rem 0.2rem;
+}
+.content img{
+	width: 7rem;
+	height: 100%;
+}
+.chose_p{
+	text-align: center;
+}

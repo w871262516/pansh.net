@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="format-detection" content="email=no" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<script src="js/flexible.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+		<title></title>
+	</head>
+	<body>
+		
+		<!--头部-->
+		<div class="nav_web">
+			<div class="content_gy">
+				<div class="left">
+					<img src="img/more.png" id="left_img"/>
+				</div>
+				<div class="right">
+					<img src="img/logo.png"/>
+				</div>
+				
+			</div>
+		</div>
+		<div class="left_nav">
+			<ul>
+				<li>
+					<a href="index.html">首页</a>
+				</li>
+				<li>
+					<a href="AboutCompany.html">关于我们</a>
+					<ul>
+						<li><a href="AboutCompany.html">公司概述</a></li>
+						<li><a href="AboutBusiness.html">平台业务</a></li>
+						<li><a href="AboutValue.html">企业价值观</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="LIfe.html">业务分类</a>
+					<ul>
+						<li><a href="LIfe.html">寿险</a></li>
+						<li><a href="Serious.html">重疾险</a></li>
+						<li><a href="Topcure.html">高端医疗</a></li>
+						<li><a href="chuxu.html">储蓄分红险</a></li>
+						<li><a href="haiwai.html">海外资产配置</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="Advantage.html">港险咨询</a>
+					<ul>
+						<li><a href="Advantage.html">港险优势</a></li>
+						<li><a href="Tow.html">两地差异</a></li>
+						<li><a href="Usually.html">常见问题</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="Case.html">投保案例</a>
+				</li>
+				<li>
+					<a href="Content.html">联系我们</a>
+				</li>
+			</ul>
+		</div>
+		<!--轮播-->
+		<div class="banner">
+			<img src="img/companybanner.png"/>
+		</div>
+		
+		
+		<div class="conten">
+			
+		</div>
+		
+		
+		
+		<!--底部-->
+		<div class="footer">
+			<div class="weixin">
+				<img src="img/gzh.jpg"/>
+			</div>
+			<div class="weixin_p">
+				<p>关注微信公众号</p>	
+			</div>
+			<div class="phone">
+				咨询电话：021-60597630
+			</div>
+			<div class="">
+				地址：上海市浦东新区张杨路838号
+			</div>
+			<div class="email">
+				E-mail：carolyn@pandachfc.com
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#left_img").click(function(){
+			    $(".left_nav").slideToggle("slow");
+			  });
+			});
+		var mySwiper = new Swiper('.swiper-container', {
+				autoplay: true,//可选选项，自动滑动
+				pagination: {
+				    el: '.swiper-pagination',
+				    clickable :true,
+				 },
+				 navigation: {
+			      nextEl: '.btn',
+			     
+			    },
+			})	
+	</script>
+</html>
